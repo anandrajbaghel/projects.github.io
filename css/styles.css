@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+    /* border: 1px dotted #C69749; */
+    font-size: medium;
+}
+@font-face {
+    font-family: myFont;
+    src: url(/font/Roman_SD.ttf);
+}
+body{
+    background-color: #282A3A;
+}
+.card{
+    background-color: #191919;
+    padding: 5vh 1vw;
+    width: 90vw;
+    height: 90vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: #C69749;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+}
+.instruction{
+    padding: 20px 0;
+}
+.numbers{
+    padding: 10vh 0;
+}
+.score{
+    display: flex;
+    float: left;
+    margin-left: 10vw;
+}
+.secret{
+    display: inline-block;
+    border: 1px dotted #C69749;
+    padding: 10px 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.high-score{
+    display: flex;
+    float: right;
+    margin-right: 10vw;
+}
+.form{
+    padding: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 20px;
+    text-align: right;
+    border: 3px solid #C69749;
+    /* font-weight: 700; */
+    color: #C69749;
+    background-color: #443d30;
+}
+button{
+    padding: 11.5px;
+    font-size: 20px;
+    background-color: #C69749;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.again{
+    bottom: -50px;
+    position: relative;
+    background-color: #83622e;
+}
